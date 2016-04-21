@@ -2,6 +2,7 @@
 
 > Bunyan stream for [Opbeat](https://opbeat.com)
 
+[![Build Status](https://travis-ci.org/mderazon/bunyan-opbeat.svg?branch=master)](https://travis-ci.org/mderazon/bunyan-opbeat)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 
