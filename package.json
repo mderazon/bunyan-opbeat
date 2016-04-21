@@ -4,19 +4,29 @@
   "description": "Bunyan stream for Opbeat",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard && node test/*test.js"
   },
+  "keywords": [
+    "bunyan",
+    "log",
+    "opbeat"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mderazon/bunyan-opbeat.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Michael DeRazon (@mderazon)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mderazon/bunyan-opbeat/issues"
   },
   "homepage": "https://github.com/mderazon/bunyan-opbeat#readme",
   "dependencies": {
     "opbeat": "^3.6.6"
+  },
+  "devDependencies": {
+    "proxyquire": "^1.7.4",
+    "standard": "^6.0.8",
+    "tape": "^4.5.1"
   }
 }
