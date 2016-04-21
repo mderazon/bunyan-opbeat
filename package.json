@@ -1,0 +1,22 @@
+{
+  "name": "bunyan-opbeat",
+  "version": "1.0.0",
+  "description": "Bunyan stream for Opbeat",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mderazon/bunyan-opbeat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mderazon/bunyan-opbeat/issues"
+  },
+  "homepage": "https://github.com/mderazon/bunyan-opbeat#readme",
+  "dependencies": {
+    "opbeat": "^3.6.6"
+  }
+}
