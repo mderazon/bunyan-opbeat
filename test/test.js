@@ -101,7 +101,7 @@ test('BunyanOpbeat sends data correctly', function (t) {
         t.deepEqual(obj.user, data.user, 'correct user')
         t.equal(obj.timestamp, data.time, 'correct time')
         t.equal(obj.machine.hostname, data.hostname, 'correct hostname')
-        t.equal(obj.level, 'warn', 'correct log level')
+        t.equal(obj.level, 'warning', 'correct log level')
         t.equal(obj.logger, data.name, 'correct name')
         t.deepEqual(obj.extra.another, data.another, 'correct extra')
         t.deepEqual(obj.extra.user, data.user, 'correct user in extra')
