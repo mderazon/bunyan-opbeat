@@ -1,6 +1,6 @@
 {
   "name": "bunyan-opbeat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bunyan stream for Opbeat",
   "main": "lib/index.js",
   "scripts": {
