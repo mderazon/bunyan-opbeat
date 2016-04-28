@@ -1,6 +1,6 @@
 {
   "name": "bunyan-opbeat",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Bunyan stream for Opbeat",
   "main": "lib/index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/mderazon/bunyan-opbeat.git"
   },
-  "author": "Michael DeRazon (@mderazon)",
+  "author": "Michael DeRazon <mderazon@hotmail.com> (https://twitter.com/mderazon)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mderazon/bunyan-opbeat/issues"
