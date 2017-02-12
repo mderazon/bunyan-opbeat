@@ -69,6 +69,8 @@ var log = bunyan.createLogger({
 log.error(new Error('whoops'))
 ```
 
+* **note**: `bunyan-opbeat` requires `opbeat` client version >= 4.8.0
+
 ### How does it work?
 bunyan-opbeat reads data coming from your bunyan logger and uses `opbeat.captureError()` to post it to Opbeat.
 It will do it's best to pass on some common fields like `user`, `time`, `hostname` and `level`.
