@@ -22,11 +22,11 @@
   },
   "homepage": "https://github.com/mderazon/bunyan-opbeat#readme",
   "dependencies": {
-    "opbeat": "^3.6.6"
+    "opbeat": "^4.11.0"
   },
   "devDependencies": {
     "proxyquire": "^1.7.4",
-    "standard": "^6.0.8",
+    "standard": "^9.0.0-beta.0",
     "tape": "^4.5.1"
   }
 }
